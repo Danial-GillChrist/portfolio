@@ -11804,7 +11804,12 @@ body.dark-scheme::-webkit-scrollbar-thumb,.dark-scheme #de_modal::-webkit-scroll
 .d-modal-loader{
     display: none;
 }
-
+.OpenModel{
+    display: none;
+}
+.ModalShow .OpenModel{
+    display: block;
+}
 .de_3d-box {
   display: flex;
   align-items: center;
@@ -18320,4 +18325,8 @@ img {
 }
 .dark-scheme .list_location li {
     text-transform: capitalize;
+}
+
+.wm-1 a {
+    color: #eadddd;
 }
