@@ -5313,7 +5313,7 @@ i.font60 {
 }
 
 .card-image-1.mod-b:hover img{
-    transform: scale(1);
+    /* transform: scale(1); */
 }
 
 .card-image-1.mod-b:hover .d-text {
@@ -5332,12 +5332,12 @@ i.font60 {
 /* card image 1 mod-c */
 
 .card-image-1.mod-c img{
-    transform: scale(1.1);
-    filter: grayscale(100%);
+    /* transform: scale(1.1); */
+    /* filter: grayscale(100%); */
 }
 
 .card-image-1.mod-c img.color{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     filter: grayscale(0);
 }
 
@@ -5369,13 +5369,13 @@ i.font60 {
 }
 
 .card-image-1.mod-c:hover img{
-    transform: scale(1);
-    filter: grayscale(0);
+    /* transform: scale(1); */
+    /* filter: grayscale(0); */
 }
 
 .card-image-1.mod-c:hover .d-text {
-    transform: scale(1);
-    background: rgba(30, 30, 30 , .3);
+    /* transform: scale(1); */
+    background: rgba(30, 30, 30 , .5);
 }
 
 .card-image-1.mod-c:hover h3 {
@@ -7000,10 +7000,10 @@ i.font60 {
 
 /* ================================================== */
 
-.social-icons {
+/* .social-icons {
     display: block;
     float: right;
-}
+} */
 
 .social-icons i {
     text-shadow: none;
@@ -7913,6 +7913,7 @@ i.font60 {
     display: block;
     font-size: 18px;
     color: #202020;
+    text-transform: capitalize;
 }
 
 .dark-scheme .d_timeline-text .d_title{
@@ -7921,6 +7922,7 @@ i.font60 {
 
 .d_timeline-text .d_company {
     margin-bottom: 10px;
+    text-transform: capitalize;
     display: block;
     color: #fff;
     font-size: 16px
@@ -18330,3 +18332,42 @@ img {
 .wm-1 a {
     color: #eadddd;
 }
+
+.marqBox marquee {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #171a1d;
+    padding-block: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgba(255, 255, 255, .2);
+    font-family: system-ui;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px #fff;
+    /* text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+.marqBox marquee i {
+    font-size: 40px;
+    position: relative;
+    top: -6px;
+}
+
+
+/* --------- media query START here -------- */
+@media only screen and (max-width: 600px) {
+    .hero_content {
+        margin-top: -30vh;
+    }
+    .marqBox marquee {
+        font-size: 40px;
+        padding-block: 30px;
+    }
+    .marqBox marquee i {
+        font-size: 30px;
+        top: -2px;
+    }
+  }
+
+  /* --------- media query END here -------- */
