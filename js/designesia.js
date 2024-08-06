@@ -292,6 +292,57 @@
         });
 
 
+        $('.logoslider1').owlCarousel({
+            center: false,
+            items:2,
+            loop:true,
+            margin:15,
+            autoplaySpeed:3000,
+            // stagePadding:30,
+            smartSpeed:450,
+            animateOut: 'slideOutDown',
+            animateIn: 'flipInX',
+            autoplay:true, 
+            dots:false, 
+            responsive: {
+                1000: {
+                    items: 6
+                },
+                600: {
+                    items: 4
+                },
+                0: {
+                    items: 2
+                }
+            }
+        });
+
+        $('.logoslider2').owlCarousel({
+            center: false,
+            items:2,
+            loop:true,
+            margin:15,
+            dots:false,
+            autoplaySpeed:4500,
+            // stagePadding:30,
+            smartSpeed:450,
+            animateOut: 'slideOutDown',
+            animateIn: 'flipInX',
+            autoplay:true, 
+            rtl:true, 
+            responsive: {
+                1000: {
+                    items: 6
+                },
+                600: {
+                    items: 4
+                },
+                0: {
+                    items: 2
+                }
+            }
+        });
+
 
         // Custom Navigation owlCarousel
         $(".next").on("click", function() {
