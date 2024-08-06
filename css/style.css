@@ -18353,7 +18353,9 @@ img {
     position: relative;
     top: -6px;
 }
-
+.g-recaptcha{
+    display: none;
+}
 
 /* --------- media query START here -------- */
 @media only screen and (max-width: 600px) {
