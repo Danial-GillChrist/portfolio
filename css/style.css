@@ -18380,6 +18380,11 @@ img {
   z-index: 1;
   position: relative;
 }
+#shadow-host-companion {
+    padding: 0!important;
+}
+
+
 /* --------- media query START here -------- */
 @media only screen and (max-width: 600px) {
     .hero_content {
