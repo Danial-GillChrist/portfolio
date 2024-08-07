@@ -343,6 +343,30 @@
             }
         });
 
+        $('.skills_slider').owlCarousel({
+            center: false,
+            items:2,
+            loop:true,
+            margin:20,
+            autoplaySpeed:2500,
+            // stagePadding:30,
+            smartSpeed:450,
+            animateOut: 'slideOutDown',
+            animateIn: 'flipInX',
+            autoplay:true, 
+            // dots:false, 
+            responsive: {
+                1000: {
+                    items: 5
+                },
+                600: {
+                    items: 3
+                },
+                0: {
+                    items: 2
+                }
+            }
+        });
 
         // Custom Navigation owlCarousel
         $(".next").on("click", function() {
